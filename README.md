@@ -1,86 +1,89 @@
-# 🧑‍💻 Professional Portfolio — LeoNaldoDev: Showcasing Front-End Expertise
-
-This personal portfolio serves as a dynamic showcase of my capabilities as a **Front-End Developer**. It highlights my technical proficiency, design aesthetic, and the diverse range of projects I've undertaken. My primary goal is to establish a robust and professional digital presence that authentically reflects my personal style and technical acumen, making it easy for potential employers and collaborators to understand my value.
-
----
-
-## 🌟 Project Objectives
-
-* **Comprehensive Developer Profile:** To succinctly present my professional identity, experience, and aspirations as a Front-End Developer.
-* **Curated Project Showcase:** To display a selection of both individual and collaborative projects, demonstrating my problem-solving skills and development versatility.
-* **Technical Acumen Highlight:** To clearly articulate my proficiency in various technologies and my preferred development tools.
-* **Streamlined Contact & Engagement:** To provide clear and accessible channels for recruiters and interested visitors to connect with me.
+<h1 align="center">🧑‍💻 LeoNaldoDev — Full Stack Developer</h1>
+<p align="center">
+  <em>Building modern, accessible and scalable web applications.</em>
+</p>
 
 ---
 
-## 🚀 Development Journey
+## 🚀 About Me
 
-My portfolio's creation followed a structured and iterative development process, ensuring a high-quality and user-centric outcome:
+I am a **Full Stack Developer** passionate about creating functional, accessible, and visually appealing web applications.  
+My work ranges from **front-end design with React.js & Tailwind CSS** to **back-end integrations with Node.js & MongoDB**.
 
-1. **Strategic Planning & Design:**
-    * **Intuitive Structure:** I meticulously defined a logical and engaging layout, comprising key sections: a welcoming introduction, an "About Me" segment, a comprehensive "Projects" gallery, a detailed "Tech Stack" overview, and a clear "Contact" section.
-    * **Visual Conceptualization:** Drawing inspiration from modern web portfolios, I utilized Figma for preliminary wireframing and layout conceptualization, ensuring a clean and contemporary aesthetic.
-
-2. **Robust Front-End Implementation:**
-    * **Component-Based Architecture:** Leveraging **React.js**, I developed a modular and scalable structure, promoting code reusability and enabling smooth, efficient navigation throughout the portfolio.
-    * **Atomic Styling with Tailwind CSS:** I employed **Tailwind CSS** to create a highly responsive and visually consistent design, utilizing its utility-first approach for rapid and precise styling.
-
-3. **Performance & Responsiveness Optimization:**
-    * **Mobile-First Approach:** The design was meticulously crafted with a mobile-first philosophy, guaranteeing an optimal and consistent user experience across all devices, from smartphones to large desktop screens.
-    * **Accessibility & Web Vitals Focus:** I prioritized web accessibility standards and performance best practices to ensure the portfolio is inclusive, fast-loading, and provides an excellent user experience.
-
-4. **Enriching Resource Integration:**
-    * **Dynamic Content:** Incorporated engaging features such as a dynamic typing text effect (powered by Typing SVG) for a personalized touch.
-    * **Live Metrics:** Integrated real-time GitHub statistics and visitor counters to provide dynamic insights and a sense of community engagement.
-    * **Optimized Visuals:** Carefully selected lightweight visuals and animations to enhance user engagement without compromising page load times or overall performance.
+💡 I believe in **code quality, user experience, and continuous learning**.  
+📍 Based in Lima, Peru.
 
 ---
 
-## 🧰 Core Tech Stack & Tools
+## 🛠 Tech Stack
 
-My portfolio is built using a modern and efficient set of technologies, reflecting my expertise in current front-end development practices:
-
-| Category                   | Tools Used                                                                                    |
-| :------------------------- | :-------------------------------------------------------------------------------------------- |
-| **Languages** | HTML5, CSS3, JavaScript (ES6+)                                                                |
-| **Frameworks & Libraries** | React.js, Tailwind CSS                                                                        |
-| **UI/UX Design** | Figma (for conceptualization and references), GitHub Typing SVG                               |
-| **Version Control** | Git, GitHub                                                                                   |
-| **Stats & Metrics** | GitHub Readme Stats, GitHub Streak, Visit Count API                                           |
-| **Development & Deployment** | Vite (for lightning-fast development environment), Netlify/Vercel (for seamless deployment) |
-
----
-
-## 📸 Visual Showcase
-
-*Portafolie*
-> <img width="1887" height="922" alt="project-dogs jpg" src="https://github.com/user-attachments/assets/d9f697d3-d4f9-4b76-85a2-c3b0ce710ca1" />
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+</p>
 
 ---
 
-## 🔧 Future Enhancements & Roadmap
+## 📌 Featured Projects
 
-I am committed to continuously improving and expanding my portfolio. Planned future enhancements include:
-
-* **Dynamic Content Management:** Exploring integration with headless CMS solutions (e.g., Notion API, Contentful) to enable dynamic management and easy updates of project details and content.
-* **Enhanced User Experience:** Implementing a dark mode / auto-theme switching feature based on user system preferences for improved visual comfort.
-* **Knowledge Sharing Platform:** Considering the addition of a dedicated blog section to share insights, learning experiences, and tutorials, establishing myself as a thought leader.
+| Project | Description | Tech |
+| ------- | ----------- | ---- |
+| 🐶 **Pet Rescue Platform** | Full-stack app for dog rescue, with adoptions, store, and admin panel. | React, Node.js, MongoDB |
+| 🛍 **Naldo’s Store** | E-commerce for men’s fashion with cart, product modal, and accessibility features. | React, TailwindCSS |
+| 📊 **Admin Dashboard** | Responsive admin panel for managing data and content. | React, TailwindCSS |
+| 🍹 **Fioreli’s Menu** | Digital menu with QR code for a juice & snack shop. | HTML, CSS, JavaScript |
 
 ---
 
-## 🧭 Running Locally
+## 📅 Experience Timeline
 
-To set up and run this project on your local machine, follow these simple steps:
+```mermaid
+timeline
+    title Development Journey
+    2024 : Started as Full Stack Developer • Built Pet Rescue Platform
+    2024 : Developed Naldo's Store • Focused on accessibility
+    2025 : Enhanced admin dashboards • Integrated APIs with MongoDB Atlas
+    2025 : Expanded portfolio with new responsive designs and UI improvements
+```
 
-```bash
-# Clone the repository
-git clone [https://github.com/leonaldo999/mi-portafolio](https://github.com/leonaldo999/mi-portafolio)
+---
 
-# Navigate into the project directory
-cd mi-portafolio
+## 📸 Portfolio Preview
 
-# Install dependencies
-npm install
+> ![Portfolio Screenshot](https://github.com/user-attachments/assets/d9f697d3-d4f9-4b76-85a2-c3b0ce710ca1)
 
-# Start the development server
-npm run dev
+---
+
+## 🔮 Roadmap
+
+- Headless CMS Integration (Contentful / Notion API)
+
+- Dark Mode with system preference detection
+
+- Developer Blog for tutorials and insights
+
+---
+
+## 📬 Connect with Me
+
+<p align="center"> 
+   <a href="https://www.linkedin.com/in/leonaldodev">
+     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+   </a> 
+   <a href="https://github.com/leonaldo999">
+      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+   </a>
+   <a href="#">
+      <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+   </a>
+</p>
+
+---
