@@ -1,31 +1,18 @@
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
-
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Projects from "./components/Projects";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import Navbar from "./features/navbar/Navbar";
+import Hero from "./features/hero/Hero";
+import About from "./features/about/About";
+import Projects from "./features/projects/Projects";
+import Contact from "./features/contact/Contact";
+import Footer from "./features/footer/Footer";
 
 function App() {
-	useEffect(() => {
-		AOS.init({
-			duration: 1000,
-			once: true,
-		});
-	}, []);
-
 	return (
 		<div className="font-sans scroll-smooth">
 			<Navbar />
-			<main className="pt-20">
-				<section id="hero">
-					<Hero />
-				</section>
-				<Projects />
+			<main id="main">
+				<Hero />
 				<About />
+				<Projects />
 				<Contact />
 			</main>
 			<Footer />

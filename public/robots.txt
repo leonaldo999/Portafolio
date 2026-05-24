@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow:
+
+# Una vez tengas dominio, descomenta y actualiza:
+# Sitemap: https://tudominio.com/sitemap.xml

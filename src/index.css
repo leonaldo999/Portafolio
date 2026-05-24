@@ -1,10 +1,82 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
-@import "aos/dist/aos.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 html {
-	scroll-behavior: smooth;
-	transition: background-color 0.3s ease, color 0.3s ease;
+  scroll-behavior: smooth;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/70 dark:bg-gray-900/70 backdrop-blur-xl border border-white/30 dark:border-white/10 shadow-lg shadow-black/5 dark:shadow-black/20;
+  }
+  .glass-card-hover {
+    @apply glass-card hover:shadow-xl hover:shadow-teal-500/10 dark:hover:shadow-teal-400/5 hover:border-teal-400/30 dark:hover:border-teal-400/20 transition-all duration-300;
+  }
+  .glass-input {
+    @apply bg-white/50 dark:bg-white/5 backdrop-blur-sm border border-gray-200/50 dark:border-white/10 text-gray-800 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 outline-none focus:ring-2 focus:ring-teal-400/50 focus:border-teal-400/50 transition-all duration-300;
+  }
+  .glass-btn {
+    @apply inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-xl font-medium shadow-lg shadow-teal-600/20 hover:shadow-teal-600/40 transition-all duration-300;
+  }
+  .gradient-text {
+    @apply bg-gradient-to-r from-teal-400 to-cyan-400 bg-clip-text text-transparent;
+  }
+  .nav-link {
+    @apply relative text-gray-600 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-400 transition-colors duration-200 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-gradient-to-r after:from-teal-400 after:to-cyan-400 after:transition-all after:duration-300 hover:after:w-full;
+  }
+  .tag-pill {
+    @apply px-3 py-1 text-xs font-medium rounded-full bg-teal-500/10 dark:bg-teal-400/10 text-teal-600 dark:text-teal-300 border border-teal-500/20 dark:border-teal-400/20;
+  }
+}
+
+@keyframes blob {
+  0% { transform: translate(0px, 0px) scale(1); }
+  33% { transform: translate(30px, -50px) scale(1.1); }
+  66% { transform: translate(-20px, 20px) scale(0.9); }
+  100% { transform: translate(0px, 0px) scale(1); }
+}
+.animate-blob { animation: blob 7s infinite; }
+.animation-delay-2000 { animation-delay: 2s; }
+.animation-delay-4000 { animation-delay: 4s; }
+
+.content-visibility-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: 500px;
+}
+
+.card-grid-container {
+  container-type: inline-size;
+}
+
+@container (max-width: 350px) {
+  .card-body {
+    padding: 1rem;
+  }
+  .card-title {
+    font-size: 1rem;
+  }
+  .card-actions {
+    flex-direction: column;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  html {
+    scroll-behavior: auto;
+  }
 }
