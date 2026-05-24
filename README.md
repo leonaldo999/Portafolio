@@ -6,17 +6,17 @@
 
 Portafolio web profesional de **Leonardo Figueroa** — Desarrollador Full Stack especializado en React, Node.js y MongoDB.
 
-🌐 **Sitio en vivo:** *pendiente de dominio*
+🌐 **Sitio en vivo:** _pendiente de dominio_
 
 ---
 
 ## 🚀 Stack
 
-| Frontend | Backend | Herramientas |
-|----------|---------|-------------|
-| React 19 | Node.js | Vite 5 |
-| Tailwind CSS 3.4 | Express | Sharp |
-| JavaScript (ESM) | MongoDB | ESLint |
+| Frontend         | Backend | Herramientas |
+| ---------------- | ------- | ------------ |
+| React 19         | Node.js | Vite 5       |
+| Tailwind CSS 3.4 | Express | Sharp        |
+| JavaScript (ESM) | MongoDB | ESLint       |
 
 ---
 
@@ -39,7 +39,7 @@ Portafolio web profesional de **Leonardo Figueroa** — Desarrollador Full Stack
 
 ## 📂 Estructura del proyecto
 
-```
+```txt
 src/
 ├── features/
 │   ├── navbar/       Navbar, ThemeToggle, ScrollProgress
